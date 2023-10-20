@@ -42,7 +42,7 @@ body{
     filter: drop-shadow(2px 4px 6px black);
 }
 #paneltop{
-    height: 25%;
+    height: 16%;
     width: 100%;
     flex-wrap: wrap;
     background-color: antiquewhite;
@@ -118,7 +118,7 @@ body{
         line-height: 2.5rem;
     }
     #paneltop{
-        height: 23%;
+        height: 16%;
     }
     #panel{
         overflow: hidden;
