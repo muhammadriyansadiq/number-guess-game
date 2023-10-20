@@ -42,7 +42,7 @@ body{
     filter: drop-shadow(2px 4px 6px black);
 }
 #paneltop{
-    height: 60px;
+    height: 25%;
     width: 100%;
     flex-wrap: wrap;
     background-color: antiquewhite;
@@ -115,10 +115,10 @@ body{
         /* font-weight: bolder; */
           /* font-family: Orbitron;  
           filter: drop-shadow(2px 4px 6px white);*/
-        line-height: 2rem;
+        line-height: 2.5rem;
     }
     #paneltop{
-        height: 16%;
+        height: 23%;
     }
     #panel{
         overflow: hidden;
@@ -142,7 +142,7 @@ body{
         /* font-weight: bolder; */
           /* font-family: Orbitron;  
           filter: drop-shadow(2px 4px 6px white);*/
-        line-height: 1.3rem;
+        line-height: 2rem;
     }
     #paneltop{
         height: 16%;

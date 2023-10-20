@@ -52,17 +52,17 @@ even.addEventListener("click",function(data){
 
 // ========================timer==================
 
-// let timer = 30
-//     let y = setInterval(() => {
-//         if(timer > 0){
-//         timer--
-//         time.innerHTML = timer
-//         }
-//         else{
-//             clearInterval(y)
-//             btm.innerHTML = ""
-//             swal("Game Over!", `your score is${scorecard}`);
+let timer = 30
+    let y = setInterval(() => {
+        if(timer > 0){
+        timer--
+        time.innerHTML = timer
+        }
+        else{
+            clearInterval(y)
+            btm.innerHTML = ""
+            swal("Game Over!", `your score is${scorecard}`);
 
             
-//         }
-//     }, 1000);
+        }
+    }, 1000);
