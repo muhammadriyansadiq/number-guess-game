@@ -11,7 +11,7 @@ let scorecard = 0;
 function makebubbles(){
  let r=""  
         // btm.innerHTML = `<div class="bubble">123</div>`//override
-        for(let i=0;i<144;i++){
+        for(let i=0;i<114;i++){
             let num = Math.floor(Math.random()*10)
                      r += `<div class="bubble">${num}</div>`
                      btm.innerHTML = r 
